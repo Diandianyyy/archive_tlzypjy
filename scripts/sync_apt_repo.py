@@ -94,7 +94,7 @@ def load_upstream_index(source: str) -> str:
 def parse_packages(text: str) -> list[dict[str, str]]:
     packages: list[dict[str, str]] = []
     normalized = text.replace("\r\n", "\n").strip()
-    for paragraph in re.split(r"\n\s*\n", normalized):
+    for paragraph in re.split(r"\n\n+", normalized):
         fields: dict[str, str] = {}
         current = ""
         for line in paragraph.splitlines():
@@ -146,6 +146,12 @@ def download_package(source: str, package: dict[str, str]) -> Path:
     destination_dir.mkdir(parents=True, exist_ok=True)
     destination = destination_dir / filename
     package_url = urljoin(source.rstrip("/") + "/", package["Filename"].lstrip("./"))
+    # Use GitHub's original file for jsDelivr GitHub aliases; hashes remain mandatory.
+    package_url = re.sub(
+        r"^https://cdn\.jsdelivr\.net/gh/([^/]+)/([^/@]+)@([^/]+)/",
+        r"https://raw.githubusercontent.com/\1/\2/\3/",
+        package_url,
+    )
 
     with tempfile.NamedTemporaryFile(dir=destination_dir, suffix=".part", delete=False) as handle:
         temporary = Path(handle.name)
