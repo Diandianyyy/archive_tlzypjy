@@ -1,0 +1,49 @@
+name: Sync TLzypjy APT source
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "53 */6 * * *"
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: sync-tlzypjy-apt
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      REQUEST_INTERVAL: "3"
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install repository tools
+        run: sudo apt-get update -qq && sudo apt-get install -y apt-utils dpkg-dev
+      - name: Download and verify packages
+        run: |
+          set -o pipefail
+          python3 -u scripts/sync_apt_repo.py --source https://tlzypjy.github.io/jb-repo/ --max-downloads 0 | tee /tmp/sync.log
+          grep -E 'entries,|Downloaded:|Skipped bad package' /tmp/sync.log >> "$GITHUB_STEP_SUMMARY" || true
+      - name: Save archived packages and failure log
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add Packages Packages.bz2 Packages.gz Packages.xz
+          if [ -d debs ]; then git add debs; fi
+          if [ -f bad-packages.log ]; then git add bad-packages.log; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'Sync TLzypjy packages and failure records'
+            git push
+          fi
+      - name: Build public APT source
+        run: python3 scripts/build_pages.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Publish source
+        id: deployment
+        uses: actions/deploy-pages@v4
