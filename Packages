@@ -1,0 +1,503 @@
+Package: byg.iosios.net.autotouch
+Architecture: iphoneos-arm64e
+Version: 8.0.11
+Section: 杂七杂八
+Maintainer: 搬运工
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/byg.iosios.net.autotouch_8.0.11_iphoneos-arm64e_7d8adc79ce59f35cd3792ac15eca87b17d1ce0d3215915fba7711a6abc702333.deb
+Size: 23805646
+MD5sum: b48aa7ae9cd55698e001d80d702fb48d
+SHA1: 274d227c23b815dc90f1a4c62c40373d2b5be568
+SHA256: 7d8adc79ce59f35cd3792ac15eca87b17d1ce0d3215915fba7711a6abc702333
+SHA512: c200079fbed7a57f4bb1c9c2aaffa2da59adcbc9b7ec881f8914bc9587f2d3a42bca16d10296777bb52a81f3de4a1746db715a68b501e7ba880d56b901f35207
+Description: Record and playback touch operations, play macro scripts automatically.打开闪退的请进系统设置-显示与亮度，关闭粗体显示即可！如果安全模式，缷载还是安全模式，多注销几次即可，本源插件都是源主测试过才上架，放心使用。插件介绍：AutoTouch用来录制和回放您在移动设备上的各种触摸和点击操作，它还可以运行事先用Lua语言写好的脚本，通过模拟人的触摸操作，来实现更多意想不到的功能。您可以用它自动玩游戏打怪赚取金币、批量编辑照片、进行程序自动化测试或者自动登入邮箱等。
+Name: 按键精灵连点器（免授权）
+Author: Kent Krantz
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: cn.zqbb.fix120hz
+Architecture: iphoneos-arm64e
+Version: 3.3.3-3
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 240
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/iphoneos-arm64e/cn.zqbb.fix120hz_3.3.3-3_iphoneos-arm64e_9e9b0b217cd2b0942e7f51ffc87f05e0a7fbceefd792fba310d58e51b8920789.deb
+Size: 44096
+MD5sum: 5007a856a3ae908531c271c629e380ca
+SHA1: a910279f68472ef29d919aff50706dcb48c1093e
+SHA256: 9e9b0b217cd2b0942e7f51ffc87f05e0a7fbceefd792fba310d58e51b8920789
+SHA512: 1c2e6c823d59b07d981d20bca138e35d31796fb588c7228f5c7ab081cbd96fe207921c48f35ea1dbf7306cf718a41d650657c8456ddc47cd43d1c55b4892b5f4
+Description: Unlock dynamic refresh rate from 80Hz to 120Hz.
+Name: Hello 120Hz（免授权）
+Author: zqbb
+
+Package: cn.zqbb.fix120hz.obf
+Architecture: iphoneos-arm64e
+Version: 3.3.3-3
+Section: Hello系列
+Maintainer: zqbb
+Installed-Size: 1216
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/iphoneos-arm64e/cn.zqbb.fix120hz.obf_3.3.3-3_iphoneos-arm64e_a2e1d1ec3a2e65388f49de171d6286410c5746a706d87ee0e4083b228e05223b.deb
+Size: 413006
+MD5sum: 07c4b1dcb8857c8ecb4e3eb375c40b2a
+SHA1: 8e82bf5f92d983762673e3ebc7a7bc21f7ed5d71
+SHA256: a2e1d1ec3a2e65388f49de171d6286410c5746a706d87ee0e4083b228e05223b
+SHA512: 177f8a5aedc830c5d08e0a79ecb901e46be63ba8dce75791820849d841398209883e4213c3d1bc87841e1e4ab2d6d669cf3be41610a823cd18c4560bb5027d1d
+Description:
+ - Unlock dynamic refresh rate from 80hz to 120hz
+ - .
+ - 解锁动态刷新率80hz到120hz.
+Name: Hello 120Hz（免授权）
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
+
+Package: cn.zqbb.hello.bundleid
+Architecture: iphoneos-arm64e
+Version: 1.6.1-5
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 10780
+Filename: debs/iphoneos-arm64e/cn.zqbb.hello.bundleid_1.6.1-5_iphoneos-arm64e_5820fd3fe6014fe73e814b13797c71934bab3164b73059cdb14d4953b4e41792.deb
+Size: 2961700
+MD5sum: 1f5e8449cbff8fdd0c590ab44f4b10fd
+SHA1: 9490ff94b3ac41ba64cd97d852200cb0265b0b43
+SHA256: 5820fd3fe6014fe73e814b13797c71934bab3164b73059cdb14d4953b4e41792
+SHA512: bc317713b4bbd7871331dbbfac009bacd7028f6004302679b4c19980a7f5f24c2ffc08f313ce75beb0f476a051dbbd9f739273a03595d52caf922e2d7eea423f
+Description: 伪装越狱和巨魔应用，让商店应用更难检测越狱!
+Name: Hello BundleID（免授权）
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.bundleid
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
+
+Package: cn.zqbb.hello.keyboard.ai
+Architecture: iphoneos-arm64e
+Version: 6.6.6-3
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 11100
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.zqbb.hello.keyboard.ai
+Filename: debs/iphoneos-arm64e/cn.zqbb.hello.keyboard.ai_6.6.6-3_iphoneos-arm64e_10b2e31d3ac910d763d09015d0aafce8fd08d6ce9e0bf18a0fdd5ddb98576507.deb
+Size: 2811520
+MD5sum: cc726eded2c84cf5d0ef7809d2b9a926
+SHA1: 50a4cb6801dbd77c832c89750fa454c4d74829a7
+SHA256: 10b2e31d3ac910d763d09015d0aafce8fd08d6ce9e0bf18a0fdd5ddb98576507
+SHA512: 5cdfb93106425b0c27ea195af8083fae18acdf8993efdfa1a648ece1299875f2ab4815761a37ef6b841f73fca9727fcb534a367116e174d64e26c83db0a822ab
+Description: Quickly activate AI mode.
+Name: Hello 键盘侠（免授权）
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.keyboard.ai.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.keyboard.ai
+
+Package: cn.zqbb.hello.memorystatus
+Architecture: iphoneos-arm64e
+Version: 3.9.0-6
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 11476
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, launchctl
+Filename: debs/iphoneos-arm64e/cn.zqbb.hello.memorystatus_3.9.0-6_iphoneos-arm64e_0fe9dde077b63f01f8d8eed5178ad8a167330e3791539edd5e2fdefae90e223e.deb
+Size: 3066828
+MD5sum: 016394ecd99a940c0f5303c2097deae0
+SHA1: e94c6f899e18bbd266a8ede68192ca065cf77c1c
+SHA256: 0fe9dde077b63f01f8d8eed5178ad8a167330e3791539edd5e2fdefae90e223e
+SHA512: a16f1aacf9989690265b3a4918b5b768ef6f9be12fcdcea3ecb20c7d9967a94a2d365f462b67db1e3cb6a31741bd35730dd80f0d2b563915425a4a6e6618f8ab
+Description: Set memorystatus to avoid being killed by the system
+Author: zqbb
+Name: Hello Memory Status（免授权）
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.memorystatus.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.memorystatus
+
+Package: cn.zqbb.hello.qactions
+Architecture: iphoneos-arm64e
+Version: 1.3.0-1
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 2480
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64e/cn.zqbb.hello.qactions_1.3.0-1_iphoneos-arm64e_89cfb0a5ae3e6ac02ea397be642c90f8c838100ff80966b3a3006bd494ce227f.deb
+Size: 667242
+MD5sum: d1c2eed2cf3ade05ff843098f4c4083b
+SHA1: c982092856fc14b17c174e7eb522322979baac6c
+SHA256: 89cfb0a5ae3e6ac02ea397be642c90f8c838100ff80966b3a3006bd494ce227f
+SHA512: 2021f46d51ef7efba3a93f2904b7ada5765cbfc4317cc77c93f7d363573e445797025640b351ac6afd3479b93f04b7ce251c658e12a7e0e4c20f71a477b3bdbe
+Description: 通过锁屏界面的手电筒和相机快速调用指定APP快捷操作，体验一键直达。
+Name: Hello QActions（免授权）
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.qactions
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.qactions
+
+Package: cn.zqbb.hello.quick.panel
+Architecture: iphoneos-arm64e
+Version: 1.0.0-5
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 5488
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iphoneos-arm64e/cn.zqbb.hello.quick.panel_1.0.0-5_iphoneos-arm64e_2ea05f0bcfd5ac568b68fa84a3024ebe62b96dfe9ca739ffc9d516473f0f34bc.deb
+Size: 1498378
+MD5sum: cc5516f764f067f89e9112e4ec73c075
+SHA1: dd1510cf7350561120519321710400d932b02e43
+SHA256: 2ea05f0bcfd5ac568b68fa84a3024ebe62b96dfe9ca739ffc9d516473f0f34bc
+SHA512: f39397dce73eacbcc83958f4d40e522605453b69135f8bdc96538dfdd03e33329d63dd33a4de6affe982a1ec6ca343f0410ea2ea0c8e809c2db863bd044bf4bf
+Description: 快捷面板~
+Name: Hello QuickPanel（免授权）
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.quick.panel.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.quick.panel
+
+Package: cn.zqbb.holdcpu
+Architecture: iphoneos-arm64e
+Version: 2.3.5-5.mg1
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 3672
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.ccsupport
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Filename: debs/iphoneos-arm64e/cn.zqbb.holdcpu_2.3.5-5.mg1_iphoneos-arm64e_668cdd1e686feed82c9e871fb72c4431bc0ca502a07f7e0d1f7743acb00f654f.deb
+Size: 1304438
+MD5sum: a46a3eeb1cd5ceb851525e740fddf1bf
+SHA1: ec63c40312f2dcac43a6b3461c0ff868bbcb1a73
+SHA256: 668cdd1e686feed82c9e871fb72c4431bc0ca502a07f7e0d1f7743acb00f654f
+SHA512: 4a8401191da4eb738aa50f422a45652e1034ffbabe17dc1b948bc0ed896de7e2c27200c4cdba165075e0cf7b663c9105eea750c8bb4056f3e958d8ff410b159c
+Description: (解除温控) (锁定低电量CPU频率)
+Name: Hello CPU（免授权）
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+
+Package: com.000.themelab
+Architecture: iphoneos-arm64e
+Version: 1.7.4
+Section: 微信插件
+Maintainer: personal
+Depends: firmware (>= 14.0), mobilesubstrate | org.coolstar.libhooker | ellekit
+Filename: debs/iphoneos-arm64e/com.000.themelab_1.7.4_iphoneos-arm64e_0e2aabfe17334f8db26a71d83dd2ff3eac7503d348fd71b3c14dc7b08f357cf9.deb
+Size: 1933200
+MD5sum: fae8399f3245df99aa6e479c3b674763
+SHA1: b194f9ab6eb35dc482454b1102732eac6f227f97
+SHA256: 0e2aabfe17334f8db26a71d83dd2ff3eac7503d348fd71b3c14dc7b08f357cf9
+SHA512: 5c090c27c9976e4c90ea373f0d0bec0d66d8bd0e7213599de3253a6e8c498d415185489a89693924ef8d6bda71468775dd6369961cf1d68eb4e908dc8b5b47c5
+Description: 000ThemeLab 主题实验室插件
+Name: 000ThemeLab（免授权）
+Author: personal
+
+Package: com.000.themelab.old
+Architecture: iphoneos-arm64e
+Version: 1.7.4
+Section: 微信插件
+Maintainer: personal
+Depends: firmware (>= 14.0), mobilesubstrate | org.coolstar.libhooker | ellekit
+Filename: debs/iphoneos-arm64e/com.000.themelab.old_1.7.4-1_iphoneos-arm64e_dbc7f97ed30aa6b269a461cef39886ec3897b02768582d4e94ff96590da8de4f.deb
+Size: 1933204
+MD5sum: 1539cd17166ba1378bc5a62f068a58a7
+SHA1: 2c01978ed0785e1afdfa94578b496371118d6c2e
+SHA256: dbc7f97ed30aa6b269a461cef39886ec3897b02768582d4e94ff96590da8de4f
+SHA512: 44af0d87f73f6629d172e3451a919d6defc6a1ab13e4f00e7424a8541f72e37bd3fcf8f5194d3646277ebf65ec41d452f3b19b2a3619238c14249af042583419
+Description: 000ThemeLab 主题实验室插件
+Name: 000ThemeLab（免授权）
+Author: personal
+
+Package: com.charlieleung.liquidify
+Architecture: iphoneos-arm64e
+Version: 1.3.8
+Section: Tweaks
+Maintainer: 一刀
+Installed-Size: 41273
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.charlieleung.liquidify_1.3.8_iphoneos-arm64e_8b4af58fe844af4f83634f400659a85771eba7e46961288b00ae7d27bb5f9740.deb
+Size: 16794788
+MD5sum: 6653a8dcf0b92474f6306c86db8a39c6
+SHA1: 7b93dda15badc98d8e251fe0f47500d37558deec
+SHA256: 8b4af58fe844af4f83634f400659a85771eba7e46961288b00ae7d27bb5f9740
+SHA512: 672045b90ff3a94191eb4513a868547303953a9629bef1d37b96cd9461587dc34480aac2e81cc4d7911989e40035717b085331936342abe194ff94644edaae26
+Description: 需验证刀铺会员 无会员请勿下载
+ 液态玻璃
+Name: 88液态玻璃隐根版（免授权）
+Author: 一刀
+
+Package: com.charlieleung.liquidify.rootless
+Architecture: iphoneos-arm64e
+Version: 1.3.8
+Section: Tweaks
+Maintainer: 一刀
+Installed-Size: 41014
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64e/com.charlieleung.liquidify.rootless_1.3.8_iphoneos-arm64e_9ef0e15e4cccdcc7e8a1231ea510b42f0224ea365afbfbd3904194d389c7632d.deb
+Size: 16954652
+MD5sum: 5cc2709cdf6a3d03e8c57a08d519fc28
+SHA1: 26c457efdfc8f6f861cfae1b519af596b849da23
+SHA256: 9ef0e15e4cccdcc7e8a1231ea510b42f0224ea365afbfbd3904194d389c7632d
+SHA512: 5719c560565fee28299acd2cab91da13b85aa6d4872fae62ba01539395549b71b336aaa89abaf6a67a4b23085cc84a06639354ed7ae78e3e3b47d1d8b34d14f6
+Description: 需验证刀铺会员 无会员请勿下载
+ 液态玻璃
+Name: 88液态玻璃无根版（免授权）
+Author: 一刀
+
+Package: com.charlieleung.trollopenjb
+Architecture: iphoneos-arm64e
+Version: 1.5.2
+Section: Tweaks
+Maintainer: 一刀
+Installed-Size: 55444
+Depends: firmware (>= 15.0),mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.libsandy
+Filename: debs/iphoneos-arm64e/com.charlieleung.trollopenjb_1.5.2_iphoneos-arm64e_b4e706ec64cd30d9a3caaa82726a495cc135d0d8a774fe874035a902da5ff85a.deb
+Size: 24317732
+MD5sum: f088c15186cfee569f9d99a60ff2698a
+SHA1: 87620fd9a4f0b5e015a2cb557a6abf12dde71c6e
+SHA256: b4e706ec64cd30d9a3caaa82726a495cc135d0d8a774fe874035a902da5ff85a
+SHA512: 71ff691f2fed9202d7821b6b1f1aa7fe476ff2ee7b864102763e72efb8f5d47a6344ca8958f969358c7cc0823d0aa6c22a040bf5ba912975b852e57275b484f3
+Description: 内置离线版，在16系统隐根状态测试正常，其他系统自测。
+ 需验证刀铺会员 无会员请勿下载
+Name: TrollOpen隐根（免授权）
+Author: 一刀
+
+Package: com.charlieleung.trollopenjb
+Architecture: iphoneos-arm64e
+Version: 1.5.2
+Section: Tweaks
+Maintainer: 一刀
+Installed-Size: 55608
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.libsandy
+Filename: debs/iphoneos-arm64e/com.charlieleung.trollopenjb.rootless_1.5.2_iphoneos-arm64e_afcae623dc0a8c74631538caa9dd98dee53489d6ec3fb1c5fcd0742c6f10988c.deb
+Size: 24269102
+MD5sum: f6f1c0c707649897eae3ce151b4e5e65
+SHA1: 91162133c20b77d47951821aea56b5c5bd8b3324
+SHA256: afcae623dc0a8c74631538caa9dd98dee53489d6ec3fb1c5fcd0742c6f10988c
+SHA512: f87cfb7cd36ad8354ffe95c1830e6c72d8229c0e016de03a3fbbc9f3cec520c458f32409a2a876d41cae4cac17673b147643b18a97446297900172301cdac11b
+Description: 内置离线版，在16系统隐根状态测试正常，其他系统自测。
+ 需验证刀铺会员 无会员请勿下载
+Name: TrollOpen 无根（免授权）
+Author: 一刀
+
+Package: com.dao.apptools15
+Architecture: iphoneos-arm64e
+Version: 2.9.1
+Section: 嗨-付费
+Maintainer: aReo
+Depends: firmware (>=15.0), mobilesubstrate
+Conflicts: com.flex2areo.apptools15rootless, com.flex2areo.apptools15roothide, com.flex2areo.apptools15, com.dao.apptools15roothide, com.dao.apptools15rootless
+Filename: debs/iphoneos-arm64e/com.dao.apptools15_2.9.1_iphoneos-arm64e_2b5e4201d1a3f4c414f337605d1303b9db8f3e63c64769cdb6b4d8a58b32b1d7.deb
+Size: 2386684
+MD5sum: e7873b20f9d14b74710f136e84b42a00
+SHA1: 8e1a4ec790793cbcfc5a34194d6a5177bd7344c8
+SHA256: 2b5e4201d1a3f4c414f337605d1303b9db8f3e63c64769cdb6b4d8a58b32b1d7
+SHA512: 5da29d1c11b3a61e5cb7bf85d8abd064d0677070ef7a5d4b76053d3a6107e2dd34b78a72ec77b111e4ab278ded3940ff14f8938255ea6d21a0841172d95e3e71
+Description: AppTools for iOS15~17，强大的App类辅助插件，可以清理缓存、备份程序、清理角标、自定义分辨率、禁止插件插件注入等，系付费插件，自行购买。
+Name: AppTools（免授权）
+Author: aReo
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/apptools/js.json
+
+Package: com.hx.120
+Architecture: iphoneos-arm64e
+Version: 2.0-1
+Section: Tweaks
+Maintainer: TLzypjy
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.hx.120_2.0-1_iphoneos-arm64e_0f540d6c9cfd5dcb955741f9e4e8c7f4117217aaafe4af8aa8399901c03fbe90.deb
+Size: 7520
+MD5sum: b644dbb4ce852804508053eb8965d52e
+SHA1: 97a389a039293c8360d0141817fdb2ce6f0e6b44
+SHA256: 0f540d6c9cfd5dcb955741f9e4e8c7f4117217aaafe4af8aa8399901c03fbe90
+SHA512: c907d0f92098ea5f3d28f5c457260aef6673d71ec7ca45e11a4fdfbb91e773c92ca875cf355fca4d52e5910dbea5736c05e075d6b49b4f51bb9b9459a8d83ede
+Description: 强制满血120Hz刷新率
+Name: 满血120Hz
+Author: 半生年华
+
+Package: com.liquidui.wechatglass
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: TLzypjy
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/iphoneos-arm64e/com.liquidui.wechatglass_1.81_iphoneos-arm64e_2ba1e1f8e49bf1eb09fa5f63203d63dbfd7d1b1c4235990f6d678d54deeade91.deb
+Size: 24243202
+MD5sum: b7716b5e1e555ac0e0ba0e48e14d97c1
+SHA1: 84768c5f26f6f394ab53e9044f7e3214774fb4f6
+SHA256: 2ba1e1f8e49bf1eb09fa5f63203d63dbfd7d1b1c4235990f6d678d54deeade91
+SHA512: 7d61f6a2257370d8b2326ff73dd0155862b6dc74b47bbad87ddde4e5c631316ca4b5dd52ffeac1043e43d7bb7bd34097e17c2e61ac1dab424f3e014d88119fd5
+Description: 需验证刀铺会员 无会员请勿下载
+ 微信液态玻璃效果，LiquidUI+KUI 双组件注入
+Name: LiquidUI 微信液态玻璃（免授权）
+Author: TLzypjy
+
+Package: com.mlgm.actra
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: mlgm
+Installed-Size: 3844
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/iphoneos-arm64e/com.mlgm.actra_1.2_iphoneos-arm64e_ac3941f9d55999ef08545488d62948a348d0e73c489cd86c0bd3ee08176679a1.deb
+Size: 756080
+MD5sum: 1ea0379a8f0dd681cc61c35401e50e22
+SHA1: 14ac08e28a09f568ba4bce27642198fbbdf5dd83
+SHA256: ac3941f9d55999ef08545488d62948a348d0e73c489cd86c0bd3ee08176679a1
+SHA512: 1448adbe9128af91df49f00ebaa28939208b7a00f2f2e6549df478758561a1141c33799353dc58b073c24569e648265cd3563bcead4b2e62d66cc47f5989fd48
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
+Package: com.rain.120hzstable
+Architecture: iphoneos-arm64
+Version: 1.3.0
+Section: Tweaks
+Maintainer: Rain
+Installed-Size: 484
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
+Conflicts: com.rain.120hzpro
+Filename: debs/iphoneos-arm64/com.rain.120hzstable_1.3.0_iphoneos-arm64_fc09a802eebdd6974b75bee14bdba9ab3adcefdbe7daa6848264ba7d9eb8b2ba.deb
+Size: 69954
+MD5sum: 910949d1355f856f05ede306965f4f61
+SHA1: a9a765a8c0773fb009afed7fed8acee2c62881fe
+SHA256: fc09a802eebdd6974b75bee14bdba9ab3adcefdbe7daa6848264ba7d9eb8b2ba
+SHA512: f1c09e6dddb21ecaa1da82af8eae9b66ad74582989abc879e011d7806339e9b98363e80545e7d53a1b02540b6971ddf13f72960578115a102d4d6611b5d2c8b8
+Description: 专注核心 80Hz/120Hz 调度的精简方案；适合不需要 Pro 扩展功能、注重流畅稳定与低负担的用户。支持 iOS 15.0 及以上。
+Name: RainFlow 120Hz
+Author: Rain
+
+Package: com.rain.dock
+Architecture: iphoneos-arm64
+Version: 3.6.2-1
+Section: Tweaks
+Maintainer: Rain
+Installed-Size: 732
+Depends: preferenceloader
+Filename: debs/iphoneos-arm64/com.rain.dock_3.6.2-1_iphoneos-arm64_17b35d6136e02c957788eae1f0d3746aef9da360df536d3cbd29d10159786b3b.deb
+Size: 140182
+MD5sum: a210c48270c6a8852efb1c1a174a38d8
+SHA1: cb3430d6067bd3280142ea003ad184cc42ba7db4
+SHA256: 17b35d6136e02c957788eae1f0d3746aef9da360df536d3cbd29d10159786b3b
+SHA512: f971a6b2bfff2eb0d152a9c123aad5850538e85166112d9afe9bd75df0e5b094ccc3815abd32378bfd094d371557297eb9c52170b2052befa0fe75407d073be5
+Description: Rain的Dock栏更美观/毛玻璃/发光边框/壁纸联动/电池条/快捷启动/手势操作/霓虹文字/矩阵雨/彩虹边框/生态缸
+Name: Rain 的 Dock（免授权）
+Author: Rain
+
+Package: com.siwenjiajia.tweak
+Architecture: iphoneos-arm64
+Version: 28.54
+Section: 抖音插件
+Maintainer: personal
+Depends: firmware (>= 14.0), mobilesubstrate | org.coolstar.libhooker | ellekit
+Conflicts: com.siwenjiajia.tweak.comm, com.siwenjiajia.tweak.free
+Filename: debs/iphoneos-arm64/com.siwenjiajia.tweak_28.54_iphoneos-arm64_f07b073f8ad9b3418783a0143d5803803ac1dca01bf657cbf06ba1466483aaa5.deb
+Size: 3689024
+MD5sum: 8d7d13e9f0e88dec56c4afb67b09084e
+SHA1: f718e599d89977e937392a4285d3ccb895d44241
+SHA256: f07b073f8ad9b3418783a0143d5803803ac1dca01bf657cbf06ba1466483aaa5
+SHA512: 6ace48d3191a3dc2c5604a89935748adaf6c85946839e937aacd2cb6de7d2d7bbdb8b8425cf0527c256b32dd9e86de6dd83b9ed070d55073db57b6c9c275789c
+Description: 抖音优化 交流版 28.54（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。
+Name: 抖音优化（免授权）
+Author: siwenjiajia
+
+Package: com.susudear.screencore
+Architecture: iphoneos-arm64
+Version: 2.0.1
+Section: Tweaks
+Maintainer: SuSu
+Installed-Size: 2960
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64/com.susudear.screencore_2.0.1_iphoneos-arm64_8a78b2aaf870f494630e444b432750b5362a2ab964ba4fc4e8231e4aec373a9e.deb
+Size: 463492
+MD5sum: 5a1601d9cb2ada3527b48f09b2da0bf6
+SHA1: 9d2635d5e4cf7643a34a35509fed9bc54f6fe97a
+SHA256: 8a78b2aaf870f494630e444b432750b5362a2ab964ba4fc4e8231e4aec373a9e
+SHA512: 826f89c70e8a05b672fc0b906700c136b22d596ae9adc04c86373666c26447a630e521ea32497f80f980802d7f9fac2cc143b8d938d8a041bb981691c9069a37
+Description: 分屏而已
+Name: ScreenCore
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+
+Package: com.wcglass.free
+Architecture: iphoneos-arm64
+Version: 3.5.8-1
+Section: 微信插件
+Maintainer: personal
+Depends: firmware (>= 14.0), mobilesubstrate | org.coolstar.libhooker | ellekit
+Filename: debs/iphoneos-arm64/com.wcglass.free_3.5.8-1_iphoneos-arm64_14d15556d5c3460f30d58fd73431661ee77c367f2b1e747887dad14c7313165d.deb
+Size: 37457028
+MD5sum: 8ef6e8dfde586a1d8515d982c271ddb9
+SHA1: 2ded23096048658448dafebfa43fcd36432aab2b
+SHA256: 14d15556d5c3460f30d58fd73431661ee77c367f2b1e747887dad14c7313165d
+SHA512: 1a30cb2229bb03482c1bdc49775e5ec0ec1dff5e380b6fdeecc6f7afbefbf82c6676992b1bf77ff631325e02b2629295b536ab192c34a6a894edc1ca40c7ad67
+Description: WCGlass 微信液态玻璃美化插件
+Name: WCGlass（免授权）
+Author: personal
+
+Package: com.wcglass.free
+Architecture: iphoneos-arm64e
+Version: 3.2.1
+Section: 微信插件
+Maintainer: personal
+Depends: firmware (>= 15.0), mobilesubstrate | org.coolstar.libhooker | ellekit
+Filename: debs/iphoneos-arm64e/com.wcglass.free_3.2.1_iphoneos-arm64e_d71ebe6337945d13a2f0630684e8c98947088daedf6ab4d34a467629954fd8c6.deb
+Size: 19588328
+MD5sum: 8037c65543a314beb5deee65279592eb
+SHA1: 68b88e147b7d79d6cb6d5a50c308889456198176
+SHA256: d71ebe6337945d13a2f0630684e8c98947088daedf6ab4d34a467629954fd8c6
+SHA512: 2fc84a5ede8a21af5e357ca58013add290d44fee07e3e5fa6965513ec78edcd55a21e13777795b12270a85a905f9bd78f8b5c15916443effb6dbfc10c25f1dda
+Description: WCGlass 微信液态玻璃（免授权·隐根版）。内置统一授权服务与热更新通道，仅自用。
+Name: WCGlass（免授权）
+Author: personal
+
+Package: com.wcglass.old
+Architecture: iphoneos-arm64e
+Version: 3.2.1
+Section: 微信插件
+Maintainer: personal
+Depends: firmware (>= 15.0), mobilesubstrate | org.coolstar.libhooker | ellekit
+Filename: debs/iphoneos-arm64e/com.wcglass.old_3.2.1-1_iphoneos-arm64e_cddb83fa7f0fdec73ca9b19daf1a56c9de0d7ad39fc6a9e148e02c335bc85c4b.deb
+Size: 19588356
+MD5sum: c10db263e7249d2cf58c25a29cbda5be
+SHA1: 1b83cc79750e13978090bb2bf88731cf4f80db11
+SHA256: cddb83fa7f0fdec73ca9b19daf1a56c9de0d7ad39fc6a9e148e02c335bc85c4b
+SHA512: b1480449a0ee5e315704ccc068bd936048a55b78e2ba8c443d25c94c544847d7bd4cc93d5765d8037ee6fedb0a57f8e284231f81f6fc894b638acc054f094400
+Description: WCGlass 微信液态玻璃（免授权·隐根版）。内置统一授权服务与热更新通道，仅自用。
+Name: WCGlass旧版（免授权）（免授权）
+Author: personal
+
+Package: com.wechat.liquidglass
+Architecture: iphoneos-arm64e
+Version: 3.8.0-4
+Section: Tweaks
+Maintainer: WeChatLiquidGlass
+Installed-Size: 90756
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64e/com.wechat.liquidglass_3.8.0_iphoneos-arm64e_0b070930cf7b10ca6d0c07b3ffaef8f22e189a29c235829f848270a0df30b592.deb
+Size: 30425268
+MD5sum: 8e6309187af6f05d655926f1f9ea0076
+SHA1: 0a8755c75dd6c59bc5ca09614cc4be5755aa4fc0
+SHA256: 0b070930cf7b10ca6d0c07b3ffaef8f22e189a29c235829f848270a0df30b592
+SHA512: f31466b197bddd88abbd93860376c38f2b0f7add999eadfd52fe99bd3bc1ff6c117c0b0b561a576443c456f8ce81036a402d84a719de9e1fa844df1ad19ba470
+Description: Bring iOS 26 Liquid Glass styling and quality-of-life tweaks to WeChat.
+Name: WCGlass
+Author: Ashram
+
+Package: com.wkk.wechatx
+Architecture: iphoneos-arm64
+Version: 2.4-3
+Section: 微信插件
+Maintainer: wkk
+Installed-Size: 9604
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/iphoneos-arm64/com.wkk.wechatx_2.4.3_iphoneos-arm64_d218eac5027ed2b74f4c89c536e3c7017416c850942a830151b8e9ac041be21d.deb
+Size: 3763264
+MD5sum: 565492cc65c00486b7504e8c35961385
+SHA1: 7ed39ffd1bc7b057e78130d91d698770040f0fdb
+SHA256: d218eac5027ed2b74f4c89c536e3c7017416c850942a830151b8e9ac041be21d
+SHA512: 533eb1dde873f447b4551ed245b9443538b31bf8efcebdfe7c108a31b924faf2a6fe58e3c8c8b6125d9c8f0154fd83858848edb64a4961bae9b005078b665933
+Description: 一个新生代的插件，主打自由定义与实用为主，更多功能由群友集思广益，功能180+，自定义程度拉满的WeChat 插件，实用功能直接拉满占比百分之95，任何功能都可以提/定制皆可，单独授权50，进付费群依然可用。如果你想实现自己想要的功能，有更好的想法，欢迎来我的付费群玩。wx号：chn137
+Name: WeChatX
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
