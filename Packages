@@ -429,6 +429,24 @@ Author: binglan
 Icon: https://axs66.github.io/pro/icon/kongzhidiy.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/kongzhidiy/js.json
 
+Package: com.Axs.lddgifbg
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: 灵动岛
+Maintainer: liuf
+Installed-Size: 356
+Filename: debs/iphoneos-arm64/com.Axs.lddgifbg_1.0.0_iphoneos-arm64_2e293ed6d60710885557972ef9d96943cac71cb7bf6506a92c4a5a271d433761.deb
+Size: 15872
+MD5sum: b55b7dc7d98c1c4f417b144bc46dd69b
+SHA1: b1aaf16d5b1f18d405b5a040197bac338162d4c1
+SHA256: 2e293ed6d60710885557972ef9d96943cac71cb7bf6506a92c4a5a271d433761
+SHA512: 0c5569823a21e7f00049d50f0405977160bbda3fbdd9c59c9cea7028e627a8767d27d17bd609fabda920c2b8c0872985a4b9ff900345a11a8b12c6674c030aab
+Description: 灵动岛GIF背景 i!
+Name: 灵动岛 GIF 背景
+Author: liuf
+Icon: https://axs66.github.io/repo/icon/lddgifbg.png
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/lddgifbg/js.json
+
 Package: com.Axs.qjsy
 Architecture: iphoneos-arm64
 Version: 4.1.6
@@ -1196,6 +1214,43 @@ Description: Rain的Dock栏更美观/毛玻璃/发光边框/壁纸联动/电池�
 Name: Rain 的 Dock（免授权）
 Author: Rain
 
+Package: com.rain.processmonitor
+Architecture: iphoneos-arm64e
+Version: 1.1.1-14+unlocked
+Section: Tweaks
+Maintainer: Rain
+Installed-Size: 1624
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/iphoneos-arm64e/com.rain.processmonitor_1.1.1-14+unlocked_iphoneos-arm64e_c35d6c607463c03c119153578bfdb336b58693e218ce531486751a33e3181f61.deb
+Size: 311952
+MD5sum: 8cff2f4ab5515c1f014d29529aea7553
+SHA1: ceec9ccdbe08320f3ce02c7e4c82ef6fc04585d2
+SHA256: c35d6c607463c03c119153578bfdb336b58693e218ce531486751a33e3181f61
+SHA512: 8f77f8787a52e0c33cfc6d02d3d23a0b8d4ad6635796a8c4fb899fee13b35fa1def335510f912817b1c018dcafb73092eef7d8cc3146e44d25255976cae3ce87
+Description: 进程监控与管理工具。功能包括：使用统计、性能统计、通知统计、运行中进程、插件管理、定时调度、插件备份、更新检测、资源监控、启动分析、后台管理、超级墓碑、双声音通知、应用冷冻、依赖关系分析、进程关系图谱、应用DNA分析、网络流量监控、A/B对比测试、Tweak热加载、剪贴板监控、发热追踪、沙盒检查、Hook探测、进程快照对比等。
+Name: Rain 的应用（免授权）
+Author: Rain
+
+Package: com.rain.rainmhz
+Architecture: iphoneos-arm64
+Version: 6.14.1-1
+Section: Tweaks
+Maintainer: Rain
+Installed-Size: 1320
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.opa334.altlist (>= 1.0.4)
+Filename: debs/iphoneos-arm64/com.rain.rainmhz_6.14.1-1_iphoneos-arm64_936598e512411a685da8ec0d623fdbeda410c0aa68d2ace876088e4e28ddf4e5.deb
+Size: 183964
+MD5sum: 9c68928e2cab4229298e2de640cf1884
+SHA1: 0e4b192db287d928a787a19fe8fb9731877dafd3
+SHA256: 936598e512411a685da8ec0d623fdbeda410c0aa68d2ace876088e4e28ddf4e5
+SHA512: 2a692b5442975bd19c5da0074b651f58ccfe6459601d76aa9642bf04e8d0e12a86a61732d2232a6e15f1fc92994f2a5d036fc6937ad6cafda49865d8ba93b7ef
+Description: Rain的CPU性能与稳帧控制插件
+ 通过IOKit控制Apple ARM DVFS，支持低发热、均衡、极限性能、智能与稳帧模式
+ 包含动态仪表盘、分级设置、场景预设、温控、性能监控与智能后台管控
+Tag: role::hacker, purpose::extension
+Name: Rain 的 Mhz（免授权）
+Author: Rain
+
 Package: com.secretfriend.wechat
 Architecture: iphoneos-arm64
 Version: 1.0-1
@@ -1542,6 +1597,40 @@ Name: WeChatNeo（免授权）
 Author: personal
 
 Package: com.wechat.liquidglass
+Architecture: iphoneos-arm64
+Version: 3.8.8-1
+Section: Tweaks
+Maintainer: WeChatLiquidGlass
+Installed-Size: 92760
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.wechat.liquidglass_3.8.8-1_iphoneos-arm64_0a2bc3c5df25d4b8a0f8d17cabaaaf41716eef8c4041905f1a10ed6bde701921.deb
+Size: 31224748
+MD5sum: 6caf0a9819dd5c41f470241e15e9d7b6
+SHA1: 3cd1fdee1565f66e6f3b42b4f121d8f5173b8f09
+SHA256: 0a2bc3c5df25d4b8a0f8d17cabaaaf41716eef8c4041905f1a10ed6bde701921
+SHA512: a45e1616eb587aed8556bddb6226e8dda41f17a7478ff292536d947168a61e56ace693ed83264ae957c6f4c4266ea82084eea75abe46c0dc210e560d52c1c1f2
+Description: Bring iOS 26 Liquid Glass styling and quality-of-life tweaks to WeChat.
+Name: WCGlass（免授权）
+Author: Ashram
+
+Package: com.wechat.liquidglass
+Architecture: iphoneos-arm64
+Version: 3.9.8
+Section: Tweaks
+Maintainer: WeChatLiquidGlass
+Installed-Size: 93272
+Depends: mobilesubstrate
+Filename: debs/iphoneos-arm64/com.wechat.liquidglass_3.9.8_iphoneos-arm64_371feeac6693026063a8a0d24a1583718a288a363c5e976250cb20cea82cb9a2.deb
+Size: 31487160
+MD5sum: 37eb4b0a08462f14355c367d076a8490
+SHA1: 0f0cdaa8c615573de8cbb3378684a17cdbd257a0
+SHA256: 371feeac6693026063a8a0d24a1583718a288a363c5e976250cb20cea82cb9a2
+SHA512: 4f13f6530838a24583d0903aab433c7c12a174a93fe7f7ad9375a920b3b76a944bf0ef5a6aff9c98c4c49559496c7742cc1e561d5562216bfb911fc4bf2352a1
+Description: Bring iOS 26 Liquid Glass styling and quality-of-life tweaks to WeChat.
+Name: WCGlass（免授权）
+Author: Ashram
+
+Package: com.wechat.liquidglass
 Architecture: iphoneos-arm64e
 Version: 3.8.0-4
 Section: Tweaks
@@ -1575,6 +1664,23 @@ Description: cool！
 Name: CopylogX（wkk）
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+
+Package: com.wkk.glasssuitex
+Architecture: iphoneos-arm64e
+Version: 1.1-0-arm64e
+Section: Tweaks
+Maintainer: wkk
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/iphoneos-arm64e/com.wkk.glasssuitex_1.1-0-arm64e_iphoneos-arm64e_8cb99cd454c1e744834e8ffb1385fac68c7d4d7cefb536ec1534d5e1e1e25dfe.deb
+Size: 395776
+MD5sum: e05644b2bbf066f1de580da77a745355
+SHA1: 178a5ab3987957241cb90a614dd6a6c81c27c059
+SHA256: 8cb99cd454c1e744834e8ffb1385fac68c7d4d7cefb536ec1534d5e1e1e25dfe
+SHA512: 190fe75ead5662cfe5afd520429930d399b84bca7104424a4bf171a4f62fbccac96425cf3a65981aa1ca017f4e0299a61580efa100837e6cb0ba8c54dbaedfd6
+Description: wkk 卖 20 的液态弹窗，只去授权，安不安全自测
+Name: GlassSuiteX（免授权）
+Author: wkk
 
 Package: com.wkk.installedpackages
 Architecture: iphoneos-arm64
