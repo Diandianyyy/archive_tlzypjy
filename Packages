@@ -1463,6 +1463,24 @@ Description: 微信主题盒子
 Name: 主题盒子（免授权）
 Author: Mao
 
+Package: com.tlzypjy.help
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: 实用工具
+Maintainer: TL回收站
+Depends: firmware (>= 13.0)
+Filename: debs/iphoneos-arm64/com.tlzypjy.help_1.0.0_iphoneos-arm64_1d084159aed4149e5454d368b643ce448f2c85ede61f78df4df9420538adf525.deb
+Size: 738
+MD5sum: 1b7f098fc60c79e49a43b8a3c43d37b3
+SHA1: b812f6c9784fd65a3a0fe7d4f1392be510b563d6
+SHA256: 1d084159aed4149e5454d368b643ce448f2c85ede61f78df4df9420538adf525
+SHA512: bc6564cc3f4e6fa892f4ce42ba6f44cc63d607d1426cdf77e645ccb858aa32430f63bad21d75c6522287e9b7c70ed76df5a82386bf2ad04f6b91acc2ad3b685a
+Description: TL回收站 源使用说明（空包，无任何功能）
+ 只做回收：插件问题请自行解决。
+ 源的问题请联系 QQ+1538215132。
+Name: TL回收站使用说明（必看）
+Author: TL回收站
+
 Package: com.tsangbaby.kayoko
 Architecture: iphoneos-arm64e
 Version: 4.8
