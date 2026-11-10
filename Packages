@@ -1221,6 +1221,26 @@ Name: Actra
 Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
+Package: com.muzi.mutool
+Architecture: iphoneos-arm64
+Version: 2.2.83-1
+Section: Tweaks
+Maintainer: Muzi
+Installed-Size: 5884
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/iphoneos-arm64/com.muzi.mutool_2.2.83-1_iphoneos-arm64_8e1e68773306628bb736ba479d1eacdfa92378103561f5b2ff619e930d879058.deb
+Size: 926260
+MD5sum: d2f5a8834f1b8565bdeebfbe30b7c421
+SHA1: 3203df36bed5fef1c305ac5f09e5067091539992
+SHA256: 8e1e68773306628bb736ba479d1eacdfa92378103561f5b2ff619e930d879058
+SHA512: f6f49771782b389d112e69c1aa91d33446b3e212441b47ed6e21bfc46b437e1f7e01387a7a8c46a2d7c9771a0c5b72313701aa3285ba95838bbd3875597cf005
+Description: MUtool 多功能工具集：灵动岛电池胶囊与电源菜单、桌面悬浮信息药丸（网速 / CPU / 内存 / 电池 / 天气 / 时间）、三合一状态栏、文件夹主题与大文件夹、通话自动录音与录屏增强、自动禁用 SIM 与卡槽管理、IPCC 运营商配置、WiFi 永连、充电提示音与 MagSafe 动画、温控调优、锁屏与主屏幕增强、定时任务、电池健康与深度信息。支持 rootless / roothide，iOS 15-17。
+Name: MUtool（免授权）
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
 Package: com.nx.stheno
 Architecture: iphoneos-arm64
 Version: 0.1.23-1
@@ -1910,6 +1930,23 @@ Description: 一个新生代的插件，主打自由定义与实用为主，更�
 Name: WeChatX
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+
+Package: com.xiaomo.secretfriend
+Architecture: iphoneos-arm64
+Version: 1.8
+Section: Tweaks
+Maintainer: xiaomo
+Installed-Size: 964
+Depends: ellekit
+Filename: debs/iphoneos-arm64/com.xiaomo.secretfriend_1.8_iphoneos-arm64_e912b17debe4fe9ab2de97f31d1b782149bebf6fe3d955ab4508738758ffbb4c.deb
+Size: 391704
+MD5sum: b7928cb622c11ed83b1fc2f30a4b2b7d
+SHA1: 2afe016e98d619e5b443d00e61d3e9a533058aab
+SHA256: e912b17debe4fe9ab2de97f31d1b782149bebf6fe3d955ab4508738758ffbb4c
+SHA512: 2513eed7a84f241c525c73dee4eb81f34f55ca008ad4c5c60af4fcfa9d740f3c63cade45fd24cb31b405239336298c4f4411043aaa8bf5547208f19cac3e4497
+Description: 小莫助手 - 微信消息隐藏与联系人管理插件
+Name: 微信独立密友（免授权）
+Author: xiaomo
 
 Package: com.ylr.wcfloatsplit
 Architecture: iphoneos-arm64
